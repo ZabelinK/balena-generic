@@ -12,6 +12,10 @@ SRC_URI:append:generic-aarch64 = " \
     file://0002-HACK-Use-the-UNAME26-personality-to-return-armv6l-in.patch;sha256sum=a3665233eebd44dc8f34ddda9ae9446bb1ef2f9c06979850bd9cc60d1e7d6f79 \
     "
 
+SRC_URI:append:kontron-come-xelx = " \
+    file://0001-cinterion-mbim.patch;sha256sum=62010854338c928ba0d6c862bfab13797f4b8ca47570c6e1c742edbfaaf11b34 \
+"
+
 KCONFIG_MODE="--alldefconfig"
 
 # enable AUFS support from kernel-balena
