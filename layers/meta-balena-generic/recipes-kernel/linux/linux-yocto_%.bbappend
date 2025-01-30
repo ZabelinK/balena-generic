@@ -13,7 +13,7 @@ SRC_URI:append:generic-aarch64 = " \
     "
 
 SRC_URI:append:kontron-come-xelx = " \
-    file://0001-cinterion-mbim.patch;sha256sum=62010854338c928ba0d6c862bfab13797f4b8ca47570c6e1c742edbfaaf11b34 \
+    file://0001-cinterion-mbim.patch;sha256sum=ed6fb66934cf9f1117efab8887ef67f0fb73286301a84430550700e9d57fd102 \
 "
 
 KCONFIG_MODE="--alldefconfig"
